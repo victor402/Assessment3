@@ -11,7 +11,7 @@ def home(request):
      
     
 
-     return render(request, 'home.html')
+     return render(request, 'home.html',{'widget_form': widget_form})
 
 
 

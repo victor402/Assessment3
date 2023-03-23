@@ -43,7 +43,7 @@
     <hr />
     <h3>Add Widget</h3>
     <form action="" method="post">
-      {% csrf_token %} {{ form.as_p }}
+      {% csrf_token %} {{ widget_form.as_p }}
       <input type="submit" class="btn" value="ADD WIDGET" />
     </form>
   </body>
